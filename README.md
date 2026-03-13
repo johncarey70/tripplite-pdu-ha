@@ -1,9 +1,9 @@
-# Home Assistant Tripp Lite PDU Integration
+# Tripp Lite PDU Home Assistant Integration
 
-Custom integration for Tripp Lite PDUs using the PowerAlert REST API.
+Custom Home Assistant integration for controlling Tripp Lite PDUs using the PowerAlert REST API.
 
 Features:
-- Control all outlets
+- Control individual outlets
 - Control main load
 - Serialized commands to match device behavior
 - Automatic state polling
