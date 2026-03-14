@@ -1,10 +1,11 @@
 {
   "domain": "tripplite_pdu",
   "name": "Tripp Lite PDU",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "documentation": "https://github.com/johncarey70/tripplite-pdu-ha",
   "requirements": [],
   "codeowners": ["@johncarey70"],
   "config_flow": true,
-  "iot_class": "local_polling"
+  "iot_class": "local_polling",
+  "integration_type": "device"
 }

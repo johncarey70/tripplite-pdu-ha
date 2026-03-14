@@ -1,0 +1,47 @@
+{
+  "title": "Tripp Lite PDU",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Tripp Lite PDU",
+        "description": "Configure a Tripp Lite network power distribution unit.",
+        "data": {
+          "host": "Host",
+          "username": "Username",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect to the device",
+      "invalid_auth": "Invalid username or password",
+      "unknown": "Unexpected error occurred"
+    },
+    "abort": {
+      "already_configured": "This Tripp Lite PDU is already configured"
+    }
+  },
+
+  "entity": {
+    "sensor": {
+      "output_voltage": {
+        "name": "Output Voltage"
+      },
+      "output_current": {
+        "name": "Output Current"
+      },
+      "output_power": {
+        "name": "Output Power"
+      }
+    },
+
+    "switch": {
+      "main_load": {
+        "name": "Main Load"
+      },
+      "outlet": {
+        "name": "Outlet {outlet}"
+      }
+    }
+  }
+}
